@@ -1,0 +1,353 @@
+/* Core styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Promo section */
+
+.promo {
+  height: 800px;
+  background: url('../img/bg/main_bg.jpg') center center/cover no-repeat;
+  padding: 39px 0 62px 0;
+}
+
+.logo .logo_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.logo .logo_text {
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 14px;
+}
+
+h1 {
+  margin-top: 67px;
+}
+
+.title {
+  color: #F9BF3B;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 41px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2.title {
+  margin-top: 30px;
+}
+
+.simple .title_big {
+  color: #fff;
+  font-weight: 900;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 21px;
+}
+
+.promo .promo_text {
+  padding: 0 13px;
+  margin-top: 23px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 21px;
+  text-align: center;
+}
+
+.promo .promo_text span {
+  color: #F9BF3B;
+  font-weight: 700;
+}
+
+.promo .promo_btn, .gift .gift_btn {
+  display: block;
+  margin: 73px auto;
+  width: 313px;
+  height: 72px;
+  background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+  border: 4px solid rgba(0, 0, 0, 0.23);
+  box-shadow: inset 0px 0px 0px 4px rgba(0, 0, 0, 0.18);
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+  color: #fff;
+  font-family: 'Roboto Condensed';
+  font-size: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+}
+
+.more {
+  margin-top: 73px;
+}
+
+.more .more_text {
+  color: #fff;
+  font-family: 'Roboto - Thin';
+  font-weight: 100;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.more .more_img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+}
+
+/* Waiting section */
+
+.waiting {
+  min-height: 604px;
+  background: #efefef;
+  padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header, .finish .finish_header {
+  color: #252525;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.finish .finish_header {
+  color: #fff;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
+  width: 217px;
+  height: 4px;
+  background: #f9bf3b;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+
+.waiting .waiting_subheader {
+  color: #4a4a4a;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
+  margin-top: 17px;
+}
+
+.waiting .waiting_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+  width: 339px;
+  text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+  width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+  color: #4a4a4a;
+  margin-top: 26px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+/* Optimization section */
+
+.optimization {
+  min-height: 550px;
+  padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header {
+  margin-left: 391px;
+  color: #299cbd;
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.optimization .optimization_text {
+  margin-left: 391px;
+  margin-top: 13px;
+  color: #4a4a4a;
+  font-family: 'Roboto Light';
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.optimization .optimization_text span {
+  font-family: 'Roboto Bold';
+  font-weight: 700;
+}
+
+.optimization .optimization_img {
+  position: absolute;
+  top: -54px;
+  left: -240px;
+  z-index: -1;
+}
+
+/* Finish section */
+
+.finish {
+  min-height: 447px;
+  padding: 86px 0 79px 0;
+  background: url('../img/bg/second_bg.jpg') center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+  margin-top: 41px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+  width: 204px;
+}
+
+.finish .finish_wrapper .finish_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 115px;
+  height: 115px;
+  background-color: #b4e2ff;
+  border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_descr {
+  margin-top: 25px;
+  text-align: center;
+  color: #efefef;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 300;
+}
+
+/* Gift section */
+
+.gift {
+  min-height: 328px;
+  background-color: #efefef;
+  padding: 86px 0 87px 0;
+}
+
+.gift .gift_items .gift_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.gift .gift_items .gift_descr {
+  margin-top: 28px;
+  color: #252525;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+/* Meet section */
+
+.meet {
+  min-height: 628px;
+  background-color: #fff;
+  padding: 82px 0 64px 0;
+}
+
+.meet .meet_items .meet_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.meet .meet_items .first_meet {
+  margin-top: 43px;
+  color: #252525;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.meet .meet_items .meet_time {
+  margin-top: 30px;
+  color: #299cbd;
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.meet .meet_items .meet_reg {
+  margin-top: 12px;
+  color: #4a4a4a;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
+}
+
+/* Footer section */
+
+footer {
+  min-height: 166px;
+  background-color: #1a1a1a;
+  padding: 61px 0 69px 0;
+}
+
+.info {
+  margin: 0 auto;
+  width: 377px;
+  text-align: center;
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+footer a {
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.underlined {
+  text-decoration: underline;
+}
